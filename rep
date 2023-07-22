@@ -47,6 +47,21 @@ proxies:
       headers: { "Host":"MajesticTerrificTelecommunications.gjzbbs.repl.co"}
     headers: {"Host":"MajesticTerrificTelecommunications.gjzbbs.repl.co" }
     tls: true
+  - name: replit-vmess
+    type: vmess
+    server: vmvltrsssopro.gjzbbs.repl.co
+    port: 443
+    uuid: "57e0cb4d-eae5-48ec-8091-149dc2b309e0"
+    alterId: 0
+    cipher: chacha20-poly1305
+    udp: true
+    xudp: true
+    network: ws
+    ws-opts:
+      path: "/57e0cb4d-eae5-48ec-8091-149dc2b309e0-vm"
+      headers: { "Host":"vmvltrsssopro.gjzbbs.repl.co"}
+    headers: {"Host":"vmvltrsssopro.gjzbbs.repl.co" }
+    tls: true
 
 proxy-groups:
 
