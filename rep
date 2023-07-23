@@ -33,23 +33,10 @@ dns:
 
 
 proxies:  
-  - name: Rep
-    type: vmess
-    server: MajesticTerrificTelecommunications.gjzbbs.repl.co
-    port: 443
-    uuid: "77a1e749-8ac4-4a87-b31d-1160ab775e9c"
-    alterId: 0
-    cipher: chacha20-poly1305
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/vm?ed=2048"
-      headers: { "Host":"MajesticTerrificTelecommunications.gjzbbs.repl.co"}
-    headers: {"Host":"MajesticTerrificTelecommunications.gjzbbs.repl.co" }
-    tls: true
+
   - name: replit-vmess
     type: vmess
-    server: vmvltrsssopro.gjzbbs.repl.co
+    server: re.jdzs.xyz
     port: 443
     uuid: "57e0cb4d-eae5-48ec-8091-149dc2b309e0"
     alterId: 0
@@ -59,8 +46,8 @@ proxies:
     network: ws
     ws-opts:
       path: "/57e0cb4d-eae5-48ec-8091-149dc2b309e0-vm"
-      headers: { "Host":"vmvltrsssopro.gjzbbs.repl.co"}
-    headers: {"Host":"vmvltrsssopro.gjzbbs.repl.co" }
+      headers: { "Host":"re.jdzs.xyz"}
+    headers: {"Host":"re.jdzs.xyz" }
     tls: true
 
 proxy-groups:
